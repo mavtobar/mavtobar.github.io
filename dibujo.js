@@ -9,7 +9,7 @@ console.log(window);
 
 for (var x = 0; x < w; x+=inc){
     for (var y = 0; y < h; y+=inc){
-        linea("black", x, y, w/2 , h/2);    
+        linea("black", x, y, x + inc , w);    
     }
 }
 
